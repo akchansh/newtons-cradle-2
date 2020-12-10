@@ -9,7 +9,7 @@ class Rope {
             pointB : {x : this.offsetX, y : this.offsetY}
             'stiffness' : 0.5,
             //'length' : 20
-        }
+        }}
         this.Rope = Constraint.create(options)
         World.add(world,this.Rope)
        // this.pointB = B
