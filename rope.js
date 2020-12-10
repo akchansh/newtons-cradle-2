@@ -11,7 +11,7 @@ class Rope {
             //'length' : 20
         }
         this.Rope = Constraint.create(options)
-        World.add(world,this.rope)
+        World.add(world,this.Rope)
        // this.pointB = B
         //console.log(this.Rope.bodyA.position)
     }
