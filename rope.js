@@ -6,10 +6,10 @@ class Rope {
         var options = {
             'bodyA' : body1,
             'bodyB' : body2,
-            pointB : {x : this.offsetX, y : this.offsetY}
+            pointB : {x : this.offsetX, y : this.offsetY},
             'stiffness' : 0.5,
             //'length' : 20
-        }}
+        }
         this.Rope = Constraint.create(options)
         World.add(world,this.Rope)
        // this.pointB = B
