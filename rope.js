@@ -18,7 +18,7 @@ class Rope {
     display(){
       if (this.Rope.bodyA){
         var p1 = this.Rope.bodyA.position
-        var p2 = this.Rope.pointB
+        var p2 = {x : this.Rope.bodyB.position.x + this.offsetX,y : this.Rope.bodyB.position.y + this.offsetY}
         strokeWeight(4)
         line(p1.x,p1.y,p2.x,p2.y)
       }
